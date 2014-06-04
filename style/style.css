@@ -1,0 +1,180 @@
+/*login and front page*/
+
+.login_form{
+	margin-top: 100px;
+}
+.welcome_breadcrumb{
+	width: auto;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 0 auto;
+	padding: 20px 20px;
+	background: rgb(50, 118, 177);
+	color: white;
+	font-size: 30px;
+	text-transform: uppercase;
+}
+.welcome_breadcrumb_banner{
+	width: auto;
+	margin: 0 auto;
+	text-align: left;
+	margin-top: 0 auto;
+	padding: 20px 20px;
+	background: rgb(50, 118, 177);
+	color: white;
+	font-size: auto;
+        
+        
+	
+}
+.welcome_breadcrumb_footer{
+    width: auto;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 0 auto;
+    padding: 10px 10px;
+    background: rgb(50, 118, 177);
+    color: white;
+    font-size: 10px;
+}
+.sign_up{
+	width: 460px;
+	padding: 10px 10px;
+	font-size: 20px;
+}
+.register_text{
+	font-style: italic;
+	text-align: center;
+	font-weight: bold;
+}
+.sign_in{
+	float: right;
+	margin-top: 10px
+}
+label.error{
+	font-style: italic;
+	background: rgb(240,183,161); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(240,183,161,1) 0%, rgba(140,51,16,1) 50%, rgba(117,34,1,1) 51%, rgba(191,110,78,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(240,183,161,1)), color-stop(50%,rgba(140,51,16,1)), color-stop(51%,rgba(117,34,1,1)), color-stop(100%,rgba(191,110,78,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(240,183,161,1) 0%,rgba(140,51,16,1) 50%,rgba(117,34,1,1) 51%,rgba(191,110,78,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(240,183,161,1) 0%,rgba(140,51,16,1) 50%,rgba(117,34,1,1) 51%,rgba(191,110,78,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(240,183,161,1) 0%,rgba(140,51,16,1) 50%,rgba(117,34,1,1) 51%,rgba(191,110,78,1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(240,183,161,1) 0%,rgba(140,51,16,1) 50%,rgba(117,34,1,1) 51%,rgba(191,110,78,1) 100%); /* W3C */
+    margin-left:9px;
+    padding:1px 5px 0px 5px;
+    font-size:small;	
+}
+input[placeholder], [placeholder], *[placeholder] {
+   color:red !important;
+}
+
+/*create home page*/
+
+.create_form_heading{
+	width: 960px;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+#nameofplace, #location,#description{
+	width: 200px;
+}
+.reply_box{
+	width: 500px;
+}
+.reply_form{
+	width: 960px;
+	margin: 0 auto;
+	padding-right: 0px;
+}
+.topic, .description{
+	width: 500px;
+}
+#blog_from{
+	width: 700px;
+	margin: 0 auto;
+	padding-left:0px;
+}
+ul.footer_list{
+	list-style-type: none;
+	width: auto;
+	margin: 0px;
+	
+
+}
+ul.footer_list li{
+	float: left;
+	padding: 15px;
+}
+.clear{
+	clear: both;
+}
+.footer li a:hover{
+	cursor: pointer;
+}
+.blog_img img{
+	width: 1000px;
+	margin: 0 auto;
+	padding: 0 px;
+}
+/*page created*/
+.page_created{
+	text-align: justify;
+	font-size: 18px;
+	color: blue;
+}
+.page_created h3{
+	color:black;
+}
+
+
+.navbar-default {
+    background-color: #3276B1;
+    border-color: #d65c14;
+}
+@media (min-width: 960px) {
+    .navbar {
+        margin-left: auto;
+        width: auto;
+        border-radius: 0px;
+        background-color: #3276B1;
+    }
+}
+.navbar-default .navbar-brand {
+    color: #ffffff;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #8a0e0b;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #ffffff;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #8a0e0b;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #ffffff;
+    background-color: #d65c14;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+    color: #8a0e0b;
+    background-color: #d65c14;
+}
+.navbar-default .navbar-nav > .dropdown > a .caret {
+    border-top-color: #ffffff;
+    border-bottom-color: #ffffff;
+}
+.welcome_breadcrumb_banner a{
+    color:white;
+    
+}
+
+
+
+
+

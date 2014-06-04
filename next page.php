@@ -1,0 +1,1 @@
+<?php include_once "standard_template.php";?>Next pagenextnextsdfs<?php include_once "footer.php";?>
